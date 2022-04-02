@@ -1,4 +1,5 @@
-import { Marker, Popup } from "mapbox-gl";
+// eslint-disable-next-line import/no-webpack-loader-syntax
+import { Marker, Popup } from "!mapbox-gl";
 import { useContext, useEffect, useReducer } from "react";
 import { PlacesContext } from "../places/PlacesContext";
 import { MapContext } from "./MapContext";

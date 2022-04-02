@@ -1,6 +1,7 @@
 import ReactDOM from "react-dom/client";
 import CityFinder from "./CityFinder";
-import mapboxgl from "mapbox-gl";
+// eslint-disable-next-line import/no-webpack-loader-syntax
+import mapboxgl from "!mapbox-gl";
 import "./globals.css";
 
 mapboxgl.accessToken = process.env.REACT_APP_ACCESS_TOKEN
